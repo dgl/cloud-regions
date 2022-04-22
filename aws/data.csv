@@ -16,18 +16,18 @@ cn-northwest-1,"China (Ningxia)","37.3095528","105.96085530747737",913101,cn
 eu-central-1,"EU (Frankfurt)","50.1106444","8.6820917",62400,de
 eu-central-2,"EU (Zurich)","47.3744489","8.5410422",1682248,ch
 eu-north-1,"EU (Estonia)","58.7523778","25.3319078",79510,ee
-eu-south-1,"EU (Milan)","45.4641943","9.1896346",44915
-eu-south-2,"EU () - ???"
+eu-south-1,"EU (Milan)","45.4641943","9.1896346",44915,it
+eu-south-2,"EU () - ???",,,,
 eu-west-1,"EU (Ireland)","53.3497645","-6.2602732",1109531,ie
 eu-west-2,"EU (London)","51.5073219","-0.1276474",65606,uk
 eu-west-3,"EU (Paris)","48.8588897","2.3200410217200766",7444,fr
 il-central-1,"Middle East (Israel) - ???","31.5313113","34.8667654",1473946,il
-me-central-1,"Middle East (United Arab Emirates) - ???","24.0002488","53.9994829",307763
+me-central-1,"Middle East (United Arab Emirates) - ???","24.0002488","53.9994829",307763,ae
 me-south-1,"Middle East (Bahrain)","26.1551249","50.5344606",378734,bh
 sa-east-1,"South America (São Paulo)","-23.5506507","-46.6333824",30674098,br
 us-east-1,"US East (N. Virginia)","37.1232245","-78.4927721",224042,us
 us-east-2,"US East (Ohio)","40.2253569","-82.6881395",162061,us
-us-gov-east-1,"AWS GovCloud (US-East)",
-us-gov-west-1,"AWS GovCloud (US)"
+us-gov-east-1,"AWS GovCloud (US-East)",,,,
+us-gov-west-1,"AWS GovCloud (US)",,,,
 us-west-1,"US West (N. California)","37.7790262","-122.419906",111968,us
 us-west-2,"US West (Oregon)","43.9792797","-120.737257",165476,us

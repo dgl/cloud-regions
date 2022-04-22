@@ -8,8 +8,8 @@ asia-south1,"Mumbai, India APAC","19.0759899","72.8773928",7888990,in
 asia-south2,"Delhi, India APAC","28.6517178","77.2219388",2702400314,in
 asia-southeast1,"Jurong West, Singapore, APAC","1.3434392","103.7058663",1830761573,sg
 asia-southeast2,"Jakarta, Indonesia, APAC","-6.1753942","106.827183",6362934,id
-australia-southeast1,Sydney, Australia, APAC","-33.8698439","151.2082848",13766899,au
-australia-southeast2,Melbourne, Australia, APAC","-37.8142176","144.9631608",4246124,au
+australia-southeast1,"Sydney, Australia, APAC","-33.8698439","151.2082848",13766899,au
+australia-southeast2,"Melbourne, Australia, APAC","-37.8142176","144.9631608",4246124,au
 europe-central2,"Warsaw, Poland, Europe","52.2319581","21.0067249",336075,pl
 europe-north1,"Hamina, Finland, Europe","60.5688901","27.1881877",2502574,fi
 europe-west1,"St. Ghislain, Belgium, Europe","50.4477484","3.8195241",2170568,be
@@ -21,7 +21,7 @@ europe-west8,"Milan, Italy, Europe","45.4641943","9.1896346",44915,it
 northamerica-northeast1,"Montréal, Québec, North America","45.5031824","-73.5698065",1634158,ca
 northamerica-northeast2,"Toronto, Ontario, North America","43.6534817","-79.3839347",2989349,ca
 southamerica-east1,"Osasco, São Paulo, Brazil, South America","-23.5324859","-46.7916801",298470,br
-southamerica-west1,"Santiago, Chile, South America",-33.4377756","-70.6504502",50016356,cl
+southamerica-west1,"Santiago, Chile, South America","-33.4377756","-70.6504502",50016356,cl
 us-central1,"Council Bluffs, Iowa, North America","41.258841","-95.8519484",151750637,us
 us-east1,"Moncks Corner, South Carolina, North America","33.197323499999996","-80.01094796275407",194122,us
 us-east4,"Ashburn, Virginia, North America","39.0437192","-77.4874899",158504587,us
