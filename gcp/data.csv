@@ -1,0 +1,31 @@
+region,location_name,lat,lon,osm_id,country_tld
+asia-east1,"Changhua County, Taiwan, APAC","24.0755667","120.5444667",2917549,tw
+asia-east2,"Hong Kong, APAC","22.2793278","114.1628131",10264792,hk
+asia-northeast1,"Tokyo, Japan, APAC","35.6828387","139.7594549",1543125,jp
+asia-northeast2,"Osaka, Japan, APAC","34.6198813","135.490357",341906,jp
+asia-northeast3,"Seoul, South Korea, APAC","37.5666791","126.9782914",2297418,kr
+asia-south1,"Mumbai, India APAC","19.0759899","72.8773928",7888990,in
+asia-south2,"Delhi, India APAC","28.6517178","77.2219388",2702400314,in
+asia-southeast1,"Jurong West, Singapore, APAC","1.3434392","103.7058663",1830761573,sg
+asia-southeast2,"Jakarta, Indonesia, APAC","-6.1753942","106.827183",6362934,id
+australia-southeast1,Sydney, Australia, APAC","-33.8698439","151.2082848",13766899,au
+australia-southeast2,Melbourne, Australia, APAC","-37.8142176","144.9631608",4246124,au
+europe-central2,"Warsaw, Poland, Europe","52.2319581","21.0067249",336075,pl
+europe-north1,"Hamina, Finland, Europe","60.5688901","27.1881877",2502574,fi
+europe-west1,"St. Ghislain, Belgium, Europe","50.4477484","3.8195241",2170568,be
+europe-west2,"London, England, Europe","51.5073219","-0.1276474",65606,uk
+europe-west3,"Frankfurt, Germany Europe","50.1106444","8.6820917",62400,de
+europe-west4,"Eemshaven, Netherlands, Europe","53.44847365","6.849962720298231",2518795,nl
+europe-west6,"Zurich, Switzerland, Europe","47.3744489","8.5410422",1682248,ch
+europe-west8,"Milan, Italy, Europe","45.4641943","9.1896346",44915,it
+northamerica-northeast1,"Montréal, Québec, North America","45.5031824","-73.5698065",1634158,ca
+northamerica-northeast2,"Toronto, Ontario, North America","43.6534817","-79.3839347",2989349,ca
+southamerica-east1,"Osasco, São Paulo, Brazil, South America","-23.5324859","-46.7916801",298470,br
+southamerica-west1,"Santiago, Chile, South America",-33.4377756","-70.6504502",50016356,cl
+us-central1,"Council Bluffs, Iowa, North America","41.258841","-95.8519484",151750637,us
+us-east1,"Moncks Corner, South Carolina, North America","33.197323499999996","-80.01094796275407",194122,us
+us-east4,"Ashburn, Virginia, North America","39.0437192","-77.4874899",158504587,us
+us-west1,"The Dalles, Oregon, North America","45.6015056","-121.1841587",186362,us
+us-west2,"Los Angeles, California, North America","34.0536909","-118.242766",207359,us
+us-west3,"Salt Lake City, Utah, North America","40.7596198","-111.8867975",150935219,us
+us-west4,"Las Vegas, Nevada, North America","36.1672559","-115.148516",170117,us

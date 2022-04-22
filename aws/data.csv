@@ -1,0 +1,33 @@
+region,location_name,lat,lon,osm_id,country_tld
+af-south-1,"Africa (Cape Town)","-33.928992","18.417396",32675806,za
+ap-east-1,"Asia Pacific (Hong Kong)","22.2793278","114.1628131",10264792,hk
+ap-northeast-1,"Asia Pacific (Tokyo)","35.6828387","139.7594549",1543125,jp
+ap-northeast-2,"Asia Pacific (Seoul)","37.5666791","126.9782914",2297418,kr
+ap-northeast-3,"Asia Pacific (Osaka)","34.6198813","135.490357",341906,jp
+ap-south-1,"Asia Pacific (Mumbai)","19.0759899","72.8773928",7888990,in
+ap-south-2,"Asia Pacific (Hyderabad)","17.360589","78.4740613",245640543,in
+ap-southeast-1,"Asia Pacific (Singapore)","1.357107","103.8194992",536780,sg
+ap-southeast-2,"Asia Pacific (Sydney)","-33.8698439","151.2082848",13766899,au
+ap-southeast-3,"Asia Pacific (Jakarta)","-6.1753942","106.827183",6362934,id
+ap-southeast-4,"Asia Pacific (Melbourne)","-37.8142176","144.9631608",4246124,au
+ca-central-1,"Canada (Central)","45.5031824","-73.5698065",1634158,ca
+cn-north-1,"China (Beijing)","39.906217","116.3912757",25248662,cn
+cn-northwest-1,"China (Ningxia)","37.3095528","105.96085530747737",913101,cn
+eu-central-1,"EU (Frankfurt)","50.1106444","8.6820917",62400,de
+eu-central-2,"EU (Zurich)","47.3744489","8.5410422",1682248,ch
+eu-north-1,"EU (Estonia)","58.7523778","25.3319078",79510,ee
+eu-south-1,"EU (Milan)","45.4641943","9.1896346",44915
+eu-south-2,"EU () - ???"
+eu-west-1,"EU (Ireland)","53.3497645","-6.2602732",1109531,ie
+eu-west-2,"EU (London)","51.5073219","-0.1276474",65606,uk
+eu-west-3,"EU (Paris)","48.8588897","2.3200410217200766",7444,fr
+il-central-1,"Middle East (Israel) - ???","31.5313113","34.8667654",1473946,il
+me-central-1,"Middle East (United Arab Emirates) - ???","24.0002488","53.9994829",307763
+me-south-1,"Middle East (Bahrain)","26.1551249","50.5344606",378734,bh
+sa-east-1,"South America (São Paulo)","-23.5506507","-46.6333824",30674098,br
+us-east-1,"US East (N. Virginia)","37.1232245","-78.4927721",224042,us
+us-east-2,"US East (Ohio)","40.2253569","-82.6881395",162061,us
+us-gov-east-1,"AWS GovCloud (US-East)",
+us-gov-west-1,"AWS GovCloud (US)"
+us-west-1,"US West (N. California)","37.7790262","-122.419906",111968,us
+us-west-2,"US West (Oregon)","43.9792797","-120.737257",165476,us
