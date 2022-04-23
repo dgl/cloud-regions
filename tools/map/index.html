@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- SPDX-License-Identifier: MIT -->
+<html lang="en">
+<head>
+	<title>Cloud regions map</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		.leaflet-container {
+			height: 90vh;
+			width: 100%;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	</style>
+</head>
+<body>
+
+<div id='map'></div>
+
+<p>
+  This map shows cloud region locations, using the data from <a
+    href="https://github.com/dgl/cloud-regions">dgl/cloud-regions</a>.
+</p>
+
+<script>
+	var map = L.map('map');
+
+        var files = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+	  maxZoom: 18,
+	}).addTo(map);
+
+	function markerPopup(feature, layer) {
+                var popupContent = "<b>" + feature.properties.provider + "</b><br>";
+                popupContent += feature.properties.region + "<br>";
+                popupContent += feature.properties.location_name;
+
+		layer.bindPopup(popupContent);
+	}
+
+	fetch("data.json").then(r => r.json()).then(r => {
+          let bounds = L.latLngBounds([]);
+          let markers = L.markerClusterGroup();
+	  L.geoJSON([r], {
+
+		style: function (feature) {
+			return feature.properties && feature.properties.style;
+		},
+
+		pointToLayer: function (feature, latlng) {
+                        bounds.extend(latlng);
+			marker = L.circleMarker(latlng, {
+				radius: 8,
+				fillColor: '#ff7800',
+				color: '#000',
+				weight: 1,
+				opacity: 1,
+				fillOpacity: 0.8
+			});
+                        markerPopup(feature, marker);
+                        markers.addLayer(marker);
+		}
+	}).addTo(map);
+        map.addLayer(markers);
+        map.fitBounds(bounds);
+    });
+</script>
+
+</body>
+</html>

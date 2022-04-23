@@ -45,7 +45,17 @@ Explain in the README roughly how you did it, for when it comes time to update.
 
 ## Using the data
 
-Currently parsing data.csv, aiming to provide some format transforms.
+The raw data is in CSV in each provider's data.csv file.
+
+In [tools/](tools) geojson.go can be used to convert the data into a GeoJSON
+FeatureCollection.
+
+```shell
+$ go build -o geojson geojson.go
+$ ./geojson ../*/data.csv > ../data.json
+```
+
+This is visualised at: http://cloud-regions.bodge.cloud
 
 ## License
 
@@ -59,3 +69,5 @@ As a result this work is licensed under the same licence:
   http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual
   contents of the database are licensed under the Database Contents License:
   http://opendatacommons.org/licenses/dbcl/1.0/
+
+Non database files are licensed under the MIT license.
