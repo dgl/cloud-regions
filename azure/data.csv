@@ -1,0 +1,48 @@
+region,location_name,lat,lon,osm_id,country_tld
+"eastus","Virginia, East US, US","37.3719","-79.8164",,us
+"eastus2","Virginia, East US 2, US","36.6681","-78.3889",,us
+"southcentralus","Texas, South Central US, US","29.4167","-98.5",,us
+"westus2","Washington, West US 2, US","47.233","-119.852",,us
+"westus3","Phoenix, West US 3, US","33.448376","-112.074036",,us
+"australiaeast","New South Wales, Australia East, Asia Pacific","-33.86","151.2094",,au
+"southeastasia","Singapore, Southeast Asia, Asia Pacific","1.283","103.833",,sg
+"northeurope","Ireland, North Europe, Europe","53.3478","-6.2597",,ie
+"swedencentral","Gävle, Sweden Central, Europe","60.67488","17.14127",,se
+"uksouth","London, UK South, Europe","50.941","-0.799",,uk
+"westeurope","Netherlands, West Europe, Europe","52.3667","4.9",,nl
+"centralus","Iowa, Central US, US","41.5908","-93.6208",,us
+"southafricanorth","Johannesburg, South Africa North, Africa","-25.731340","28.218370",,za
+"centralindia","Pune, Central India, Asia Pacific","18.5822","73.9197",,in
+"eastasia","Hong Kong, East Asia, Asia Pacific","22.267","114.188",,hk
+"japaneast","Tokyo, Saitama, Japan East, Asia Pacific","35.68","139.77",,jp
+"koreacentral","Seoul, Korea Central, Asia Pacific","37.5665","126.9780",,kr
+"canadacentral","Toronto, Canada Central, Canada","43.653","-79.383",,ca
+"francecentral","Paris, France Central, Europe","46.3772","2.3730",,fr
+"germanywestcentral","Frankfurt, Germany West Central, Europe","50.110924","8.682127",,de
+"norwayeast","Norway, Norway East, Europe","59.913868","10.752245",,no
+"brazilsouth","Sao Paulo State, Brazil South, South America","-23.55","-46.633",,br
+"eastus2euap",", East US 2 EUAP, US","36.6681","-78.3889",,us
+"northcentralus","Illinois, North Central US, US","41.8819","-87.6278",,us
+"westus","California, West US, US","37.783","-122.417",,us
+"jioindiawest","Jamnagar, Jio India West, Asia Pacific","22.470701","70.05773",,in
+"switzerlandnorth","Zurich, Switzerland North, Europe","47.451542","8.564572",,ch
+"uaenorth","Dubai, UAE North, Middle East","25.266666","55.316666",,ae
+"centraluseuap",", Central US EUAP, US","41.5908","-93.6208",,us
+"westcentralus","Wyoming, West Central US, US","40.890","-110.234",,us
+"southafricawest","Cape Town, South Africa West, Africa","-34.075691","18.843266",,za
+"australiacentral","Canberra, Australia Central, Asia Pacific","-35.3075","149.1244",,au
+"australiacentral2","Canberra, Australia Central 2, Asia Pacific","-35.3075","149.1244",,au
+"australiasoutheast","Victoria, Australia Southeast, Asia Pacific","-37.8136","144.9631",,au
+"japanwest","Osaka, Japan West, Asia Pacific","34.6939","135.5022",,jp
+"jioindiacentral","Nagpur, Jio India Central, Asia Pacific","21.146633","79.08886",,in
+"koreasouth","Busan, Korea South, Asia Pacific","35.1796","129.0756",,kr
+"southindia","Chennai, South India, Asia Pacific","12.9822","80.1636",,in
+"westindia","Mumbai, West India, Asia Pacific","19.088","72.868",,in
+"canadaeast","Quebec, Canada East, Canada","46.817","-71.217",,ca
+"francesouth","Marseille, France South, Europe","43.8345","2.1972",,fr
+"germanynorth","Berlin, Germany North, Europe","53.073635","8.806422",,de
+"norwaywest","Norway, Norway West, Europe","58.969975","5.733107",,no
+"switzerlandwest","Geneva, Switzerland West, Europe","46.204391","6.143158",,ch
+"ukwest","Cardiff, UK West, Europe","53.427","-3.084",,uk
+"uaecentral","Abu Dhabi, UAE Central, Middle East","24.466667","54.366669",,ae
+"brazilsoutheast","Rio, Brazil Southeast, South America","-22.90278","-43.2075",,br
