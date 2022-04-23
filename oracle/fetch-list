@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -s https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json | jq -r '.regions[] | .region' | sort -u

@@ -1,0 +1,31 @@
+region,location_name,lat,lon,osm_id,country_tld
+af-johannesburg-1,"South Africa Central (Johannesburg)","-26.205","28.049722",261833893,za
+ap-chuncheon-1,"South Korea North (Chuncheon)","37.8810569","127.7297641",2517796,kr
+ap-hyderabad-1,"India South (Hyderabad)","17.360589","78.4740613",245640543,in
+ap-melbourne-1,"Australia Southeast (Melbourne)","-37.8142176","144.9631608",4246124,au
+ap-mumbai-1,"India West (Mumbai)","19.0759899","72.8773928",7888990,in
+ap-osaka-1,"Japan Central (Osaka)","34.6198813","135.490357",341906,jp
+ap-seoul-1,"South Korea Central (Seoul)","37.5666791","126.9782914",2297418,kr
+ap-singapore-1,"Singapore (Singapore)","1.357107","103.8194992",536780,sg
+ap-sydney-1,"Australia East (Sydney)","-33.8698439","151.2082848",13766899,au
+ap-tokyo-1,"Japan East (Tokyo)","35.6828387","139.7594549",1543125,jp
+ca-montreal-1,"Canada Southeast (Montreal)","45.5031824","-73.5698065",1634158,ca
+ca-toronto-1,"Canada Southeast (Toronto)","43.6534817","-79.3839347",2989349,ca
+eu-amsterdam-1,"Netherlands Northwest (Amsterdam)","52.3727598","4.8936041",271110,nl
+eu-frankfurt-1,"Germany Central (Frankfurt)","50.1106444","8.6820917",62400,de
+eu-marseille-1,"France South (Marseille)","43.2961743","5.3699525",76469,fr
+eu-milan-1,"Italy Northwest (Milan)","45.4641943","9.1896346",44915,it
+eu-stockholm-1,"Sweden Central (Stockholm)","59.3251172","18.0710935",398021,se
+eu-zurich-1,"Switzerland North (Zurich)","47.3744489","8.5410422",1682248,ch
+il-jerusalem-1,"Israel Central (Jerusalem)","31.79592425","35.21198075969497",1381350,il
+me-abudhabi-1,"UAE Central (Abu Dhabi)","24.4538352","54.3774014",4479763,ae
+me-dubai-1,"UAE East (Dubai)","25.2653471","55.2924914",31248510,ae
+me-jeddah-1,"Saudi Arabia West (Jeddah)","21.5810088","39.1653612",1933393717,sa
+sa-santiago-1,"Chile (Santiago)","-33.4377756","-70.6504502",50016356,cl
+sa-saopaulo-1,"Brazil East (Sao Paulo)","-23.5506507","-46.6333824",30674098,br
+sa-vinhedo-1,"Brazil Southeast (Vinhedo)","-23.0298535","-46.9749847",298037,br
+uk-cardiff-1,"UK West (Newport)","51.5718862","-2.9752461627035136",335184,uk
+uk-london-1,"UK South (London)","51.5073219","-0.1276474",65606,uk
+us-ashburn-1,"US East (Ashburn)","39.0437192","-77.4874899",158504587,us
+us-phoenix-1,"US West (Phoenix)","33.4484367","-112.074141",150964064,us
+us-sanjose-1,"US West (San Jose)","37.3361905","-121.890583",112143,us

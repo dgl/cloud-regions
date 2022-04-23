@@ -8,12 +8,8 @@ approximate location in a provider independent format.
 * Amazon, Amazon Web Services (AWS)
 * Google, Google Cloud Platform (GCP)
 * Linode
-* Vultr, Vultr Cloud (Vultr)
-
-TODO:
-
-* Azure
 * Oracle
+* Vultr, Vultr Cloud (Vultr)
 
 ## Adding or updating data
 
