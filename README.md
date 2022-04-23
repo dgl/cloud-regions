@@ -13,7 +13,6 @@ approximate location in a provider independent format.
 TODO:
 
 * Azure
-* Upcloud
 * Oracle
 
 ## Adding or updating data
