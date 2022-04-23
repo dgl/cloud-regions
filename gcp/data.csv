@@ -18,11 +18,13 @@ europe-west3,"Frankfurt, Germany Europe","50.1106444","8.6820917",62400,de
 europe-west4,"Eemshaven, Netherlands, Europe","53.44847365","6.849962720298231",2518795,nl
 europe-west6,"Zurich, Switzerland, Europe","47.3744489","8.5410422",1682248,ch
 europe-west8,"Milan, Italy, Europe","45.4641943","9.1896346",44915,it
+europe-west9,"Paris, France, Europe","48.8588897","2.3200410217200766",7444,fr
 northamerica-northeast1,"Montréal, Québec, North America","45.5031824","-73.5698065",1634158,ca
 northamerica-northeast2,"Toronto, Ontario, North America","43.6534817","-79.3839347",2989349,ca
 southamerica-east1,"Osasco, São Paulo, Brazil, South America","-23.5324859","-46.7916801",298470,br
 southamerica-west1,"Santiago, Chile, South America","-33.4377756","-70.6504502",50016356,cl
 us-central1,"Council Bluffs, Iowa, North America","41.258841","-95.8519484",151750637,us
+us-central2,"Mayes County, Oklahoma, North America","36.3047676","-95.2355722",1822225,us
 us-east1,"Moncks Corner, South Carolina, North America","33.197323499999996","-80.01094796275407",194122,us
 us-east4,"Ashburn, Virginia, North America","39.0437192","-77.4874899",158504587,us
 us-west1,"The Dalles, Oregon, North America","45.6015056","-121.1841587",186362,us
