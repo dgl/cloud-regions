@@ -43,6 +43,6 @@ region,location_name,lat,lon,osm_id,country_tld
 "germanynorth","Berlin, Germany North, Europe","53.073635","8.806422",,de
 "norwaywest","Norway, Norway West, Europe","58.969975","5.733107",,no
 "switzerlandwest","Geneva, Switzerland West, Europe","46.204391","6.143158",,ch
-"ukwest","Cardiff, UK West, Europe","53.427","-3.084",,uk
+"ukwest","Cardiff, UK West, Europe","51.427","-3.084",,uk
 "uaecentral","Abu Dhabi, UAE Central, Middle East","24.466667","54.366669",,ae
 "brazilsoutheast","Rio, Brazil Southeast, South America","-22.90278","-43.2075",,br
