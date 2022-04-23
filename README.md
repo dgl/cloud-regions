@@ -38,7 +38,13 @@ Make a data.csv.
 - "country_tld" should be the country code, with a bias towards the form used
   in TLDs (hk rather than cn, uk rather than gb)
 
-The rest of the fields should be as `./get-loc.sh "London, England"` outputs.
+The rest of the fields should be as: [./get-loc.sh](tools/get-loc.sh) "London,
+England" outputs.
+
+Make a "fetch-list" which can fetch a list of the current regions from the
+providers API or other provider controlled source (sources without auth such as
+IP lists are preferred). This makes it possible to regularly check for new
+regions so the data stays fresh.
 
 Explain in the README roughly how you did it, for when it comes time to update.
 

@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -s https://www.gstatic.com/ipranges/cloud.json | jq -r '.prefixes[]["scope"]' | sort -u | grep -v global

@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -n +2 "$1" | jq -crR 'split(",") | .[0]' | sed 's/"//g'

@@ -1,0 +1,35 @@
+#!/bin/bash
+set -euo pipefail
+
+if ! [ -d tools ]; then
+  if [ -d ../tools ]; then
+    cd ..
+  else
+    echo "Please run within the cloud-region checkout"
+    exit 1
+  fi
+fi
+
+diff=0
+
+for provider in *; do
+  if ! [ -d $provider ] || [[ $provider = tools ]]; then
+    continue
+  fi
+
+  echo "=== Checking $provider"
+  cd $provider
+
+  if [ -x "fetch-list" ]; then
+    if ! diff -u <(./fetch-list) <(../tools/list-regions data.csv); then
+      diff=1
+      echo "--- Difference for $provider"
+    fi
+  else
+    echo "No fetch-list for $provider" >&2
+  fi
+
+  cd ..
+done
+
+exit $diff

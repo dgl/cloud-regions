@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -s https://api.linode.com/v4/regions | jq -r '.data[] | .id'
