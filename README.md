@@ -4,21 +4,21 @@ This is data on cloud provider regions.
 
 ## Providers
 
-Google, Google Cloud Platform (GCP)
-Amazon, Amazon Web Services (AWS)
+* Google, Google Cloud Platform (GCP)
+* Amazon, Amazon Web Services (AWS)
+* Linode
 
 TODO
 
-Vultr, Vultr Cloud (Vultr)
-Azure
-Upcloud
-Linode
-Oracle
-IBM
+* Vultr, Vultr Cloud (Vultr)
+* Azure
+* Upcloud
+* Oracle
 
 ## Adding or updating data
 
-The raw data is in data.csv in each provider's directory. Update that and send a PR.
+The raw data is in data.csv in each provider's directory. Update that and send
+a PR.
 
 Most regions currently refer to a coarse area, such as "London". If you know
 which datacentres a region is actually hosted in, we will happily take updates.
