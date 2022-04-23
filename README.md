@@ -1,16 +1,17 @@
 # Cloud provider regions
 
-This is data on cloud provider regions.
+This is data on cloud provider regions, primarily aiming to give their
+approximate location in a provider independent format.
 
 ## Providers
 
-* Google, Google Cloud Platform (GCP)
 * Amazon, Amazon Web Services (AWS)
+* Google, Google Cloud Platform (GCP)
 * Linode
-
-TODO
-
 * Vultr, Vultr Cloud (Vultr)
+
+TODO:
+
 * Azure
 * Upcloud
 * Oracle

@@ -1,0 +1,26 @@
+region,location_name,lat,lon,osm_id,country_tld
+"ams","Amsterdam, NL, Europe","52.3727598","4.8936041",271110,nl
+"atl","Atlanta, US, North America","33.7489924","-84.3902644",119557,us
+"bom","Mumbai, IN, Asia","19.0759899","72.8773928",7888990,in
+"cdg","Paris, FR, Europe","48.8588897","2.3200410217200766",7444,fr
+"dfw","Dallas, US, North America","32.7762719","-96.7968559",6571629,us
+"ewr","New Jersey, US, North America","40.0757384","-74.4041622",224951,us
+"fra","Frankfurt, DE, Europe","50.1106444","8.6820917",62400,de
+"hnl","Honolulu, US, North America","21.2890997","-157.717299",119231,us
+"icn","Seoul, KR, Asia","37.5666791","126.9782914",2297418,kr
+"lax","Los Angeles, US, North America","34.0536909","-118.242766",207359,us
+"lhr","London, GB, Europe","51.5073219","-0.1276474",65606,uk
+"mad","Madrid, ES, Europe","40.4167047","-3.7035825",5326784,es
+"mel","Melbourne, AU, Australia","-37.8142176","144.9631608",4246124,au
+"mex","Mexico City, MX, North America","19.4326296","-99.1331785",62270270,mx
+"mia","Miami, US, North America","25.7741728","-80.19362",154158458,us
+"nrt","Tokyo, JP, Asia","35.6828387","139.7594549",1543125,jp
+"ord","Chicago, US, North America","41.8755616","-87.6244212",122604,us
+"sao","São Paulo, BR, South America","-23.5506507","-46.6333824",30674098,br
+"sea","Seattle, US, North America","47.6038321","-122.3300624",237385,us
+"sgp","Singapore, SG, Asia","1.357107","103.8194992",536780,sg
+"sjc","Silicon Valley, US, North America","37.4429964","-122.1545229",5368437129,us
+"sto","Stockholm, SE, Europe","59.3251172","18.0710935",398021,se
+"syd","Sydney, AU, Australia","-33.8698439","151.2082848",13766899,au
+"waw","Warsaw, PL, Europe","52.2319581","21.0067249",336075,pl
+"yto","Toronto, CA, North America","43.6534817","-79.3839347",2989349,ca
