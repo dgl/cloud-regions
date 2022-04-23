@@ -1,0 +1,12 @@
+region,location_name,lat,lon,osm_id,country_tld
+"ap-west","Mumbai, India","19.0759899","72.8773928",7888990,"in"
+"ca-central","Toronto, ON, Canada","43.6534817","-79.3839347",2989349,"ca"
+"ap-southeast","Sydney, NSW, Australia","-33.8698439","151.2082848",13766899,"au"
+"us-central","Dallas, Texas, US","32.7762719","-96.7968559",6571629,"us"
+"us-west","Fremont, California, US","37.5482697","-121.988571",111943,"us"
+"us-southeast","Atlanta, Georgia, US","33.7489924","-84.3902644",119557,"us"
+"us-east","Newark, New Jersey, US","40.735657","-74.1723667",158815316,"us"
+"eu-west","London, UK","51.5073219","-0.1276474",65606,"uk"
+"ap-south","Singapore","1.357107","103.8194992",536780,"sg"
+"eu-central","Frankfurt, Germany","50.1106444","8.6820917",62400,"de"
+"ap-northeast","Tokyo, Japan","35.6828387","139.7594549",1543125,"jp"
