@@ -19,12 +19,14 @@
 		html, body {
 			height: 100%;
 			margin: 0;
+                        background: #fff;
 		}
 		.leaflet-container {
 			height: 90vh;
 			width: 100%;
 			max-width: 100%;
 			max-height: 100%;
+                        background: #fff;
 		}
 	</style>
 </head>
@@ -43,6 +45,7 @@
         var files = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 	  maxZoom: 18,
+          noWrap: true,
 	}).addTo(map);
 
 	function markerPopup(feature, layer) {
