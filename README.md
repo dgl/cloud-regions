@@ -6,10 +6,11 @@ approximate location in a provider independent format.
 ## Providers
 
 * Amazon, Amazon Web Services (AWS)
+* Azure, Microsoft Azure
 * Google, Google Cloud Platform (GCP)
 * Linode
 * Oracle
-* Vultr, Vultr Cloud (Vultr)
+* Vultr
 
 ## Adding or updating data
 
