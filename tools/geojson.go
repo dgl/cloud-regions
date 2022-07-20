@@ -73,7 +73,12 @@ func parseCSV(file string) ([]Region, error) {
 			return nil, err
 		}
 		lat, _ := strconv.ParseFloat(record[2], 64)
-		lon, _ := strconv.ParseFloat(record[3], 64)
+		lon, err := strconv.ParseFloat(record[3], 64)
+		if err != nil {
+			// AWS don't publish a location for e.g. GovCloud. While religating the
+			// government to Null Island might be a good easter egg, just ignore them.
+			continue
+		}
 		data = append(data, Region{record[0], record[1], lat, lon, record[4], record[5]})
 	}
 	return data, nil
